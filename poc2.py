@@ -56,8 +56,8 @@ This is a CSV data from a .csv file. Rearrange the columns into ONLY van_id, vis
 
     lines = response.strip().split('\n')[1:]
     # print("lines: "+str(lines)) #debug
-
-    for line in lines:
+    try:
+      for line in lines:
         fields = line.split(',')
         formatted_data = (
             fields[0],        # Field 1
@@ -68,6 +68,12 @@ This is a CSV data from a .csv file. Rearrange the columns into ONLY van_id, vis
             fields[5]         # Field 6
         )
         van_data.append(formatted_data)
+    except IndexError:
+      print('Sorry, the the file is incomprehensible.')
+    except:
+       print('Sorry, an error occured on our end.')
+
+    
     
     van_data.sort(key=lambda x: x[5])
     # print(van_data)
