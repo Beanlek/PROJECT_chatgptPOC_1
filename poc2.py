@@ -7,7 +7,9 @@ import re
 root=Tk()
 root.geometry("700x700")
 
-openai.api_key = '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'
+API_KEY = open('key.txt', 'r')
+
+openai.api_key = API_KEY.read()
 
 model_engine = "text-davinci-003"
 prompt = "Hello, how are you Robot?"
