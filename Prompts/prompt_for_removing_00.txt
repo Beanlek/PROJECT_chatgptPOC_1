@@ -1,0 +1,11 @@
+van_id,visit_date,outlet_id,lng,lat,check_in_at,check_out_at,travelled_time,created_at
+V2XV004,22/7/2023,243239,100.54194,5.0104346,2023-07-22 13:02:03.000 +0800,2023-07-22 13:02:53.506 +0800,-00:01:02.494,2023-07-22 13:02:03.992 +0800
+V2XV004,29/7/2023,243239,100.54194,5.0104346,2023-07-29 12:51:42.000 +0800,2023-07-29 12:52:23.374 +0800,-00:01:06.626,2023-07-29 12:51:42.334 +0800
+V2XV002,4/7/2023,244645,100.73991,4.82156,2023-07-04 12:02:34.000 +0800,2023-07-04 16:46:34.903 +0800,16:52.9,2023-07-04 12:02:34.149 +0800
+V2XV002,7/7/2023,244645,100.73991,4.82156,2023-07-07 12:05:25.000 +0800,2023-07-07 13:54:22.526 +0800,35:31.5,2023-07-07 12:05:26.083 +0800
+
+This is a CSV data from a .csv file. Follow the following commands in order:
+
+1. If the travel time has '-00:' at the start of the number, remove the '-00:' so it will become a proper timestamp.
+2. Reorder the data by 'created_at'.
+3. Give the answer in the above format.

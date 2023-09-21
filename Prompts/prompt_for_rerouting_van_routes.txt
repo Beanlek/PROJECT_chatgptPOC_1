@@ -1,0 +1,16 @@
+V2XV001 = 16 routes
+V2XV002 = 22 routes
+V2XV003 = 16 routes
+V2XV004 = 20 routes
+V2XV005 = 8 routes
+V2XV006 = 17 routes
+V2XV007 = 20 routes
+V2XV008 = 19 routes
+V2XV009 = 12 routes
+V2XV010 = 0 routes
+V2XV015 = 0 routes
+
+Total route count above is 150 routes.
+
+Reroute the vans so that 3 vans with the least route nunmber will have at least 5 routes. MAKE SURE the total route count are 150 altogether. Do not give ANY process. Give answer for all vans in above format.
+
